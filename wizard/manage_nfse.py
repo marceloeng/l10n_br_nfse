@@ -21,8 +21,12 @@
 #                                                                            #
 ##############################################################################
 
-from osv import fields, osv
-from tools.translate import _
+# Adicionado para ser compativel com OdooV8
+from openerp.osv import osv, fields
+
+# Adicionado para ser compativel com OdooV8
+from openerp.tools.translate import _
+
 import base64
 import urllib2
 import sys

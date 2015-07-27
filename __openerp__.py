@@ -28,7 +28,7 @@
     "category": "Localization",
     "website": "http://proge.com.br",
     "description": """
-    Module to support SPED NFS-e.
+    Modulo SPED NFS-e.
     """,
     'depends': [
         'l10n_br_account',

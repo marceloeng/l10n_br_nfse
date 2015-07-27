@@ -21,8 +21,8 @@
 #                                                                            #
 ##############################################################################
 
-from osv import fields, osv
-
+# Adicionado para funcionamento no Odoo v8
+from openerp.osv import osv, fields
 
 class account_invoice(osv.osv):
     _inherit = 'account.invoice'
